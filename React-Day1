@@ -1,0 +1,6 @@
+ What is React?
+ -React is an open source JS library used to develope complex and interactive web and mobile UI.
+-It is declarative efficient and flexible and it allows to the componnet based approach which allows us to create reusable UI component.
+-Developer primarily use react to create single page application and the library focuses solely on the view layer of MVC.
+
+
