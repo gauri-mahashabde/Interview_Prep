@@ -40,3 +40,19 @@ var y = function(callB)
 }
 
 y(x);
+
+//Asynchronous JS
+/*Asynchronous programming is a technique that enables your program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished. Once that task has finished, your program is presented with the result.
+Making HTTP requests using fetch()
+Accessing a user's camera or microphone using getUserMedia()
+Asking a user to select files using showOpenFilePicker()*/
+
+//Example
+
+let greet_one = "Hello"
+let greet_two = "World!!!"
+console.log(greet_one)
+setTimeout(function(){
+    console.log("Asynchronous");
+}, 10000)
+console.log(greet_two);
