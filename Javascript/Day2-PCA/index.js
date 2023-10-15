@@ -12,3 +12,17 @@ Use
 Update the UI after a network request has completed.
 Process data after a file has been read.
 Make another API call after the results of the first API call have been received.*/
+
+//syntax
+var func1 = function()
+{
+    //Body
+}
+
+var func2 = function(callback) 
+{
+    //Body
+    callback()
+}
+
+func2(func1);
