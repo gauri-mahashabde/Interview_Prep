@@ -26,3 +26,17 @@ var func2 = function(callback)
 }
 
 func2(func1);
+
+//example 1
+var x = function() 
+{
+    console.log("Called From Within A Function")
+}
+
+var y = function(callB)
+{
+    console.log('The Callback Function')
+    callB()
+}
+
+y(x);
