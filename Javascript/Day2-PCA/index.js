@@ -56,3 +56,35 @@ setTimeout(function(){
     console.log("Asynchronous");
 }, 10000)
 console.log(greet_two);
+
+//promise
+/*The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+Pending: Your one month is not completed yet, hence, you are not sure whether your promise will be fulfilled or not.
+
+Fulfilled: You successfully finished learning JavaScript in one month.
+
+Rejected: You failed in fulfilling the promise.*/
+
+//Example
+function getSumNum(a, b) {
+  const customPromise = new Promise((resolve, reject) => {
+    const sum = a + b;
+
+    if(sum <= 5){
+      resolve("Let's go!!")
+    } else {
+      reject(new Error('Oops!.. Number must be less than 5'))
+    }
+  })
+
+  return customPromise
+}
+
+// consuming the promise
+getSumNum(1, 3).then(data => {
+  console.log(data)
+})
+.catch(err => {
+  console.log(err)
+})
+
