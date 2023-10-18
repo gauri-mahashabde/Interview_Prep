@@ -25,3 +25,6 @@ Three core principles of redux
 1.The state of your whole application is stored in an object tree within a single store.
 Maintain our application state in a single object which would be managed by the redux store.
 2.The only way to change the state is to emit an action , an object describing what happened.
+To update the state of your app, you need to let redux know about that with an action.
+3.To specify how the state tree is transformed by actions , you write pure reducer(pure function).
+
