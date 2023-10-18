@@ -13,3 +13,6 @@ Conditional statements
 Components
 Simplicity  
 
+What is Redux?
+Redux is a predictable state conatiner for javascript apps.
+It can be used with any library React , angular , Vue or vanilla Js.
