@@ -27,4 +27,7 @@ Maintain our application state in a single object which would be managed by the 
 2.The only way to change the state is to emit an action , an object describing what happened.
 To update the state of your app, you need to let redux know about that with an action.
 3.To specify how the state tree is transformed by actions , you write pure reducer(pure function).
+-Action is a object with type property and action creator is a function which returns the action.
+-Reducer is a function that accepts state and action as arguments , and returns the next state of application.
+
 
