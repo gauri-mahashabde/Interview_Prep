@@ -29,5 +29,11 @@ To update the state of your app, you need to let redux know about that with an a
 3.To specify how the state tree is transformed by actions , you write pure reducer(pure function).
 -Action is a object with type property and action creator is a function which returns the action.
 -Reducer is a function that accepts state and action as arguments , and returns the next state of application.
+-store - There is just one store for entier application
+-Holds application state 
+-Allows access to state via getState()
+-Allow state to be updated via dispatch(action)
+-registers listeners via subscribe(listener)
+-handles unregistering of listeners via the function returned by subscribe(listner)
 
 
