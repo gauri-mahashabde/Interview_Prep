@@ -11,3 +11,4 @@ What are the scopes in JS?
 scopes determine the accessibility of vauables.
 JS has 2 scopes
 1.Global scope
+2.local scope
