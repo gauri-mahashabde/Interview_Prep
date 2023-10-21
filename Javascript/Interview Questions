@@ -6,3 +6,8 @@ It is well-known for the development of web pages, and many non-browser environm
 What is hoisting in Javascript?
 Hoisting in Javascript is a behaviour in which a function or a variable can be used before declaration.
 Only declarations are hoisted , initilizations are not hoisted.
+
+What are the scopes in JS?
+scopes determine the accessibility of vauables.
+JS has 2 scopes
+1.Global scope
