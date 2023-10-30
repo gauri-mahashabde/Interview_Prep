@@ -30,3 +30,8 @@ Referencing the variable in the block before the variable declaration results in
 Is Javascript a statically typed language or dynamically typed language ?
 Javascript is a dynamically typed language , which means that data types of variables are determined by the value they hold 
 at runtime and can change throughout the program as we assigning differnet value to them.
+
+What are undeclared and undefined variables?
+Undeclared variables are those that do not exist in a program and are not declared. If the program tries to read the value of an undeclared variable, then a runtime error is encountered.
+
+Undefined variables are those that are declared in the program but have not been given any value. If the program tries to read the value of an undefined variable, an undefined value is returned.
