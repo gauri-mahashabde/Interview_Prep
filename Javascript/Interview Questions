@@ -40,4 +40,8 @@ Undefined variables are those that are declared in the program but have not been
 A prompt box is a box that allows the user to enter input by providing a text box. 
 A label and box will be provided to enter the text or number.
 
+What is the basic use of the NAN function in JS?
+=>NAN stands for not a number.
+=>It represents a value that is not a valid number.
+=>It can be used to check whether a number enetered is a valid numbe or not a number.
 
