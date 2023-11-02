@@ -53,3 +53,9 @@ Syntax
 function name(parameter1, parameter2, parameter3) {
   // code to be executed
 }
+Example
+function calcAddition(number1, number2) { 
+    return number1 + number2; 
+}
+console.log(calcAddition(6,9));
+
