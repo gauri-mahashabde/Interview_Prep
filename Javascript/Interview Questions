@@ -59,3 +59,4 @@ function calcAddition(number1, number2) {
 }
 console.log(calcAddition(6,9));
 
+
