@@ -10,7 +10,9 @@
   height: 120vh;
   display: flex;
 }
-
+header{
+    display: flex;
+}
 .side-main {
   width: 20%;
   border: 2px solid black;
@@ -21,9 +23,9 @@
 img {
   width: 120px;
   height: 50px;
-
-  padding-top: 20px;
-  padding-left: 60px;
+ padding: 10px;
+ padding-left: 34px;
+  
 }
 .main {
   width: 80%;
@@ -37,8 +39,16 @@ img {
   height: 60%;
   border-radius: 4px;
   padding-top: 10px;
+  padding: 36px;
 }
 
+/* .menu{
+    padding: 10px;
+    font-size: 20px;
+    border:2px solid white;
+    border-radius: 50%;
+    display: flex;
+} */
 .dropdown {
   border: 2px solid rgb(30, 65, 180);
   height: 20%;
@@ -61,7 +71,6 @@ img {
   width: 75%;
 }
 
-
 .Hero_section_side {
   border: 2px solid rgb(17, 18, 19);
   height: 100vh;
@@ -69,46 +78,55 @@ img {
   width: 25%;
 }
 
-
-.main1{
-    border: 2px solid rgb(23, 176, 176);
-  height: 40%;
+.main1 {
+  border: 2px solid rgb(23, 176, 176);
+  height: 40vh;
   border-radius: 4px;
   width: 100%;
 }
 
-.main2{
-    border: 2px solid rgb(176, 59, 23);
-  height: 40%;
+.main2 {
+  border: 2px solid rgb(176, 59, 23);
+  height: 40vh;
   border-radius: 4px;
   width: 100%;
 }
 
-.main3{
-    border: 2px solid rgb(224, 141, 136);
-  height: 15%;
+.main3 {
+  border: 2px solid rgb(224, 141, 136);
+  height: 15vh;
   border-radius: 4px;
   width: 100%;
 }
 
-.main4{
-    border: 2px solid rgb(176, 163, 23);
-  height: 15%;
+.main4 {
+  border: 2px solid rgb(176, 163, 23);
+  height: 15vh;
   border-radius: 4px;
   width: 100%;
 }
 
-.section1{
-    border: 2px solid rgb(218, 217, 209);
+.section1 {
+  border: 2px solid rgb(218, 217, 209);
   height: 60%;
   border-radius: 4px;
   width: 100%;
 }
 
-.section2{
-    border: 2px solid rgb(196, 195, 187);
+.section2 {
+  border: 2px solid rgb(196, 195, 187);
   height: 40%;
   border-radius: 4px;
   width: 100%;
 }
 
+.main_img {
+  width: 120vh;
+  height: 40vh;
+  margin-right: 30%;
+  padding-left: 1px;
+  padding-top: 1px;
+}
+/* padding-top: 20px;
+padding-left: 60px;
+} */
