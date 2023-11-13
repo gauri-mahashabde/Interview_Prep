@@ -7,14 +7,14 @@
 .container {
   border: 2px solid black;
   padding: 10px;
-  height: 95vh;
+  height: 120vh;
   display: flex;
 }
 
 .side-main {
   width: 20%;
   border: 2px solid black;
-  height: 95vh;
+  height: 115vh;
   border-radius: 4px;
 }
 
@@ -28,7 +28,7 @@ img {
 .main {
   width: 80%;
   border: 2px solid rgb(180, 30, 30);
-  height: 95vh;
+  height: 115vh;
   border-radius: 4px;
 }
 
@@ -64,14 +64,51 @@ img {
 
 .Hero_section_side {
   border: 2px solid rgb(17, 18, 19);
-  height: 85vh;
+  height: 100vh;
   border-radius: 4px;
   width: 25%;
 }
 
+
 .main1{
     border: 2px solid rgb(23, 176, 176);
-  height: 30%;
+  height: 40%;
   border-radius: 4px;
   width: 100%;
 }
+
+.main2{
+    border: 2px solid rgb(176, 59, 23);
+  height: 40%;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.main3{
+    border: 2px solid rgb(224, 141, 136);
+  height: 15%;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.main4{
+    border: 2px solid rgb(176, 163, 23);
+  height: 15%;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.section1{
+    border: 2px solid rgb(218, 217, 209);
+  height: 60%;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.section2{
+    border: 2px solid rgb(196, 195, 187);
+  height: 40%;
+  border-radius: 4px;
+  width: 100%;
+}
+
