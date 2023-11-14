@@ -144,7 +144,7 @@ padding-left: 60px;
 .input_ {
   height: 35px;
   border-radius: 10px;
-  background-color: rgb(10, 8, 8);
+  background-color: rgb(120, 114, 114);
   border: none;
   box-shadow: 1px;
   margin-left: 10px;
@@ -156,7 +156,7 @@ padding-left: 60px;
   border-radius: 10px;
   /* background-color: rgb(39, 37, 37); */
   border: none;
-  background-color: rgb(10, 8, 8);
+  background-color: rgb(198, 192, 192);
 }
 .dropdown{
     display: flex;
@@ -194,4 +194,27 @@ select {
 #slct > option{
     font-size: 20px;
 
+}
+
+.bell{
+  margin-left: 420px;
+  font-size: 25px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 40px;
+}
+
+.bell :hover{
+  color: rgb(218, 171, 171);
+}
+.gear{
+  margin-left: 15px;
+  font-size: 25px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 40px;
+}
+
+.gear :hover{
+  color: rgb(218, 171, 171);
 }
