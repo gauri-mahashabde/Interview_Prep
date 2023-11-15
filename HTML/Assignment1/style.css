@@ -72,10 +72,21 @@ navbar{
 
 .Hero-section-1{
     display: block;
-    height: 52vh;
+    height: 60vh;
     border: 2px solid black;
     margin-top: 10px;
     background-color: #212529;
     border-radius: 10px;
+
+}
+
+.title {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 60px;
+    margin-top: 35px;
 
 }
