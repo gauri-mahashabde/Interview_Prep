@@ -7,3 +7,9 @@ Hypertext defines the link between the web pages.
 The markup language is used to define the text document within the tag which defines the structure of web pages. 
 HTML is used to structure the website and is therefore used for Web Development.
 </li>
+What is !DOCTYPE?
+A doctype or document-type declaration is an instruction that tells the web browser about the markup language in which the current page is written.
+The doctype is not an element or tag, it lets the browser know about the version of or standard of HTML or any other markup language that is being used in the document.
+The DOCTYPE for HTML5 is case-insensitive and can be written as shown below:
+
+<!DOCTYPE html>
