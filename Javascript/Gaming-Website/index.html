@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gaming WEbsite</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <script src = "script.js"></script>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Creating Game</h3>
+      <div class="forms">
+        <form>
+          <label for="games" class="games">Name your Game:</label>
+
+          <input type="text" placeholder="Game Name" /><br />
+          <label for="games" class="games">Choose your level:</label><br>
+
+          <select name="games"class="dropdownButton" id="games">
+            
+            <div class="dropdownMenuItems">
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advance">Advance</option></select
+              >
+            </div>
+
+           <br />
+          <button type="submit" id="add">Add</button>
+        </form>
+      </div>
+      <div class="display">HEllo</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
