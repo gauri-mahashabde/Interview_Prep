@@ -1,8 +1,8 @@
- * { 
-   padding: 0;
+* {
+  padding: 0;
   margin: 0;
   background-color: rgb(156, 151, 151);
-} 
+}
 
 .container {
   /* border: 2px solid black; */
@@ -131,7 +131,7 @@ img {
 }
 
 .section1 {
-   /* border: 2px solid rgb(218, 217, 209);  */
+  /* border: 2px solid rgb(218, 217, 209);  */
   /* height: 100%; */
   border-radius: 4px;
   width: 100%;
@@ -337,24 +337,23 @@ select {
   border-radius: 50%;
 }
 
-.main3 button{
- 
-  
+.main3 button {
   background-color: #e1ecf4;
   border-radius: 3px;
   border: 1px solid #7aa7c7;
-  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
   box-sizing: border-box;
   color: #39739d;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 1.15385;
   margin: 0;
   outline: none;
-  padding: 8px .8em;
+  padding: 8px 0.8em;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -372,7 +371,7 @@ select {
 }
 
 .button-8:focus {
-  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
 }
 
 .button-8:active {
@@ -381,24 +380,23 @@ select {
   color: #2c5777;
 }
 
-.main4 button{
- 
-  
+.main4 button {
   background-color: #d7e4db;
   border-radius: 3px;
   border: 1px solid rgb(146, 199, 122);
-  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
   box-sizing: border-box;
   color: #39739d;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 1.15385;
   margin: 0;
   outline: none;
-  padding: 8px .8em;
+  padding: 8px 0.8em;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -425,7 +423,7 @@ select {
   color: #2c5777;
 }
 
-.section1 header{
+.section1 header {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
@@ -433,33 +431,33 @@ select {
   padding-right: 10px;
 }
 
-.sub1{
-  border:1px solid #2c5777;
+.sub1 {
+  border: 1px solid #2c5777;
 }
-.logo{
+.logo {
   display: flex;
   /* align-items: center; */
   justify-content: space-around;
   /* border: 1px rgb(81, 79, 79) solid; */
 }
 
-.logo img{
+.logo img {
   font-size: 2px;
   border-radius: 50%;
   height: 29px;
   width: 31px;
 }
-.logo h5{
+.logo h5 {
   padding: 14px;
   margin-left: -15px;
 }
 
-.logo h6{
+.logo h6 {
   padding: 10px;
   margin-left: -15px;
 }
 
-.sub1 p{
+.sub1 p {
   text-align: center;
   font-size: 10px;
   padding-left: 10px;
@@ -467,45 +465,47 @@ select {
   font-size: 12px;
 }
 
-.sub1{
+.sub1 {
   padding: 10px;
   border-radius: 8px;
 }
 
-.end{
+.end {
   display: flex;
   padding: 10px;
   justify-content: space-between;
 }
 
-.section2 header{
+.section2 header {
   justify-content: space-between;
   padding: 10px;
   border: 2px rgb(114, 110, 110) solid;
   border-radius: 8px;
 }
 
-.channel{
+.channel {
   display: flex;
   align-items: center;
   padding-top: 10px;
 }
 
-.channel img{
+.channel img {
   border-radius: 50%;
   height: 50px;
   width: 50px;
 }
-.channel div h5{
+.channel div h5 {
   padding-top: 15px;
-} 
+}
 
-.channel div h6{
+.channel div h6 {
   margin-top: -19px;
-} 
+}
 
-.channel i{
+.channel i {
   padding-left: 80px;
-  padding-top: 25px;
+  padding-top: 25px; 
   font-size: 10px;
 }
+
+

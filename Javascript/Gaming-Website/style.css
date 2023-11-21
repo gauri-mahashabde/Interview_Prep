@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(23, 23, 28);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms {
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(23, 23, 28);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+.games {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+input {
+  border: 3px solid #000;
+  border-radius: 5px;
+  height: 50px;
+  line-height: normal;
+  color: #282828;
+  display: block;
+  width: 150%;
+  box-sizing: border-box;
+  user-select: auto;
+  font-size: 16px;
+  padding: 0 6px;
+  padding-left: 12px;
+  :focus {
+    border: 3px solid #5551ff;
+  }
+}
+.dropdownButton {
+  background-color: #6f6a6a;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 2px;
+  border: 1px solid white;
+  cursor: pointer;
+  width: 150%;
+}
+
+.dropdownMenuItems {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: #965858;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(189, 94, 94, 0.2);
+  z-index: 1;
+}
+
+button {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #788686;
+  background-image: radial-gradient(
+      93% 87% at 87% 89%,
+      rgba(0, 0, 0, 0.23) 0%,
+      transparent 86.18%
+    ),
+    radial-gradient(
+      66% 66% at 26% 20%,
+      rgba(255, 255, 255, 0.55) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25),
+    inset 0px 3px 9px rgba(255, 255, 255, 0.3),
+    inset 0px 1px 1px rgba(255, 255, 255, 0.6),
+    inset 0px -8px 36px rgba(0, 0, 0, 0.3),
+    inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+  width: 15%;
+}
