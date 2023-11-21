@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.conatiner {
+  border: 2px solid black;
+  min-height: 100vh;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head {
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+button {
+  margin-right: 10px;
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+button:hover,
+button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+nav {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+nav h5 {
+    padding: 10px;
+}
+
+
+@media (max-width:1231px) {
+    header {
+        font-size: 0.8rem;
+    }
+
+    .head{
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:495px) 
+{header {
+    display: flex;
+}
+
+.head{
+    display: block;
+    font-size: 0.5rem;
+}
+
+nav h5{
+    display: flex;
+    flex-direction: column;
+}
+button {
+    
+    font-size: 0.5rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+    
+}
+
+@media (max-width:209px) 
+{header {
+    display: flex;
+}
+
+.head{
+    display: block;
+    font-size: 0.8px;
+}
+
+nav h5{
+    display: flex;
+    flex-direction: column;
+}
+button {
+    
+    font-size: 0.5rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+    
+}
