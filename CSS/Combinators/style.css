@@ -1,7 +1,7 @@
 /* all the elements that are descendants of a specified element */
-/* div p{
+ div p{
     background-color: yellow;
-} */
+} 
 
 /* The child selector selects all elements that are the children of a specified element. */
 
@@ -10,6 +10,10 @@
 } */
 
 /* select an element that is directly after another specific element. */
-div + p {
+/* div + p {
     background-color: yellow;
-}
+} */
+
+/* div ~ p {
+    background-color: yellow;
+  } */
