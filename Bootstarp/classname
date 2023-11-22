@@ -46,3 +46,15 @@ Tables
 Contextual Classes
 .table-sm - small table
 .table-responsive - responsive - scrollbar
+
+Images
+.rounded - rounded corner
+.rounded-circle - circle shape image
+.img-thumbnail -  image to a thumbnail
+Aligning Images
+.float-start
+.float-end
+Centered Image
+.mx-auto .d-block
+Responsive Images
+.img-fluid
