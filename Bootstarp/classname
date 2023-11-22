@@ -17,3 +17,14 @@ grid
 .col-xxl-(xxlarge devices - screen width equal to or greater than 1400px)
 .col - colum with equal space
 row
+
+typography
+h1,h2,h3,h4,h5,h6 - heading classes
+.display-1-.display-6 -(large-font-size and weight )
+.small and <small>-smaller and secondary text
+.mark <mark> yellow background color 
+<abbr> dotted border bottom and a cursor with question mark on hover
+blockquote , <blockquote> ,.blockquote-footer
+<dl>-Description Lists
+<code>
+<pre>
