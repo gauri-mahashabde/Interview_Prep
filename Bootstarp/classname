@@ -28,3 +28,8 @@ blockquote , <blockquote> ,.blockquote-footer
 <dl>-Description Lists
 <code>
 <pre>
+
+colors
+.text-muted , .text-primary ,.text-success, .text-info , .text-danger , .text-secondary ,.text-white ,.text-dark , .text-body
+background colors
+.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light.
