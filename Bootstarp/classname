@@ -33,3 +33,16 @@ colors
 .text-muted , .text-primary ,.text-success, .text-info , .text-danger , .text-secondary ,.text-white ,.text-dark , .text-body
 background colors
 .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light.
+
+Tables
+.table - basic table styling
+.table-striped - zebra stripes
+.table-bordered - bodered table
+ .table-hover - hovers
+.table-dark - black background table
+.table-dark & .table-striped - dark striped
+.table-hover - dark hover
+.table-borderless
+Contextual Classes
+.table-sm - small table
+.table-responsive - responsive - scrollbar
