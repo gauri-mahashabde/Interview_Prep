@@ -68,3 +68,24 @@ Closing Alerts
 .alert-dismissible class="btn-close" data-bs-dismiss="alert"
 Animated Alerts
 The .fade and .show classes adds a fading effect when closing the alert message
+
+Button
+btn-basic button
+btn btn-primary , btn btn-secondary ,btn btn-success , btn btn-success 
+btn btn-warning , btn btn-danger , btn btn-dark ,btn btn-light ,btn btn-link
+Button outline
+btn btn-outline-primary , btn btn-outline-secondary , btn btn-outline-success
+btn btn-outline-info, btn btn-outline-warning , btn btn-outline-danger 
+btn btn-outline-dark , btn btn-outline-light text-dark
+Button Sizes
+.btn-lg - large 
+.btn-sm - small
+Active/Disabled Buttons
+.active
+.disabled 
+Spinner Buttons
+btn btn-primary 
+spinner-border spinner-border-sm
+spinner-grow spinner-grow-sm
+
+
