@@ -95,6 +95,12 @@ Button Group
 .btn-group-vertical
 btn btn-primary dropdown-toggle - nested button
 
+Badges
+.badge
+Contextual Badges
+contextual classes (.bg-*) to change the color of a badge
+.rounded-pill class to make the badges more round
+
 
 
 
