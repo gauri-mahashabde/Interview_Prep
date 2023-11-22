@@ -1,0 +1,9 @@
+container
+.container-fixed width container
+.container-fluid- full width container
+pt-5 - adding padding top
+p-5 - padding
+my - margin
+bg-dark - background color
+text-white - white text
+.container-sm|md|lg|xl - responsive
