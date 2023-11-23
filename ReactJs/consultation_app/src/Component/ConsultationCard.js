@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types';
+
 
 function ConsultationCard({ userName, consultationDate, topic }) {
   return (
@@ -18,7 +20,12 @@ ConsultationCard.defaultProps = {
   topic: 'General'
 };
 
-
+// Prop types validation
+ConsultationCard.propTypes = {
+  userName: PropTypes.string.isRequired,
+  consultationDate: PropTypes.string.isRequired,
+  topic: PropTypes.string.isRequired
+};
 
 
 

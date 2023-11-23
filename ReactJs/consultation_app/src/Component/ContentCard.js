@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types';
+
 
 function ContentCard({title , description , author}) {
   return (
@@ -17,5 +19,10 @@ ContentCard.defaultProps = {
   author: 'Unknown'
 };
 
+ContentCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired
+};
 
 export default ContentCard
