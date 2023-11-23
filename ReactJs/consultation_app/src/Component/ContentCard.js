@@ -13,11 +13,11 @@ function ContentCard({title , description , author}) {
 };
 
 // Default props
-ContentCard.defaultProps = {
-  title: 'Untitled',
-  description: 'No description available',
-  author: 'Unknown'
-};
+// ContentCard.defaultProps = {
+//   title: 'Untitled',
+//   description: 'No description available',
+//   author: 'Unknown'
+// };
 
 ContentCard.propTypes = {
   title: PropTypes.string.isRequired,
