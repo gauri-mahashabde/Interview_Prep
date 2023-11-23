@@ -5,12 +5,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import Comp from './Component/Comp'
 import Compclass from './Component/Compclass'
+import Parentcomponent from './Component/Parentcomponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Compclass />
-  </React.StrictMode>
+  <React.Fragment>
+    <Parentcomponent/>
+  </React.Fragment>
 );
 
 // If you want to start measuring performance in your app, pass a function
