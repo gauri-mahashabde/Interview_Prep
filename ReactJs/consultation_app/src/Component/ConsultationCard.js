@@ -14,11 +14,11 @@ function ConsultationCard({ userName, consultationDate, topic }) {
  
 };
 //default props
-ConsultationCard.defaultProps = {
-  userName: 'Anonymous',
-  consultationDate: 'N/A',
-  topic: 'General'
-};
+// ConsultationCard.defaultProps = {
+//   userName: 'Anonymous',
+//   consultationDate: 'N/A',
+//   topic: 'General'
+// };
 
 // Prop types validation
 ConsultationCard.propTypes = {
