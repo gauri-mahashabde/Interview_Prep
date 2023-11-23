@@ -22,8 +22,8 @@ function App() {
     <div className='App'>
       <ConsultationCard {...consultationData}/>
       <ContentCard {...contentData}/>
-      <ConsultationCard userName={defaultAuthor} />
-      <ContentCard author={defaultAuthor} />
+      <ConsultationCard />
+      <ContentCard />
       {/* <Parentcomponent/> */}
     </div>
   )
