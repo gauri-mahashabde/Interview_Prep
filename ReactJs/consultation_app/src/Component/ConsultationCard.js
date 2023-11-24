@@ -29,4 +29,4 @@ ConsultationCard.propTypes = {
 
 
 
-export default ConsultationCard
+export default ConsultationCard;
